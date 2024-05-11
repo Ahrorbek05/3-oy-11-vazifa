@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/swatch.png);
+  font-family: "DM sans";
+}
+body .header__container .header-section {
+  width: 882px;
+  background-color: transparent;
+  position: absolute;
+  top: 30px;
+  left: 300px;
+  border: none;
+  border: 2px solid #2e2f31;
+  border-radius: 500px;
+  padding: 15px 25px 15px 29px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+body .nav ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+body nav li {
+  list-style: none;
+}
+body .nav a {
+  text-decoration: none;
+  color: #FAFAFA;
+  transition: all 1s;
+}
+body .nav a:hover {
+  color: #FF5029;
+  border-bottom: 2px solid #2e2f31;
+}
+body .btns {
+  margin-left: 50px;
+  background-color: transparent;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #FF5029;
+  padding: 11px 20px;
+  color: #FAFAFA;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.btns:hover {
+  background-color: #fd7d60;
+}
+
+.header__container {
+  max-width: 900px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section h4 {
+  color: #898A8C;
+  position: absolute;
+  left: 700px;
+  top: 210px;
+  font-size: 14px;
+}
+
+h1 {
+  position: absolute;
+  top: 230px;
+  left: 480px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+p {
+  position: absolute;
+  top: 410px;
+  text-align: center;
+  left: 440px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.button-email {
+  padding: 10px 50px 10px 1px;
+  background-color: rgba(170, 170, 170, 0.1921568627);
+  border: 2px solid #2e2f31;
+  border-radius: 12px;
+  position: absolute;
+  width: 280px;
+  top: 500px;
+  left: 560px;
+}
+.button-email input {
+  background: transparent;
+  outline: none;
+  text-align: left;
+  border: none;
+  color: #FFFFFF;
+}
+
+.section-btns {
+  position: absolute;
+  top: 500px;
+  left: 845px;
+  border: none;
+  background-color: #FF5029;
+  border: 1px solid rgba(46, 47, 49, 0.2039215686);
+  padding: 11px 20px;
+  color: #FAFAFA;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.5s;
+}
+
+.section-btns:hover {
+  background-color: #fd7d60;
+}
+
+h5 {
+  position: absolute;
+  top: 550px;
+  left: 560px;
+  color: #FAFAFA;
+  font-size: 14px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
